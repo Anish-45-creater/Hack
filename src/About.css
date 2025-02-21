@@ -1,0 +1,185 @@
+.about-container {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #19242f, #004c99, #0066cc, #457cb4);
+    color: white;
+    padding: 50px 20px;
+    min-height: 100vh;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #show{
+    width: 250px;
+    height: 80px;
+    margin-top: 80px;
+  background: linear-gradient(90deg, #0a4052, #3c6b99); 
+    
+    color: white;
+    font-family: "Poppins", sans-serif ;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: 0.7s;
+    padding: 10px 20px;
+  }
+  #show:hover{
+    background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  transform: scale(1.2);
+  cursor: pointer;
+  }
+  .description {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  .rules-title, .prizes-title {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #ffcc00;
+  }
+  
+  .rules-list {
+    list-style: none;
+    padding: 20px 10px;
+    box-shadow: 3px 4px 50px rgba(231, 231, 231, 0.5);
+    margin-top: 40px;
+    width: 800px;
+    height: 300px;
+    margin-left: 25%;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #3aabd1, #3c6b99); 
+
+  }
+  .rules-list li{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 30px;
+  }
+  
+  #r1{
+    color: rgb(0, 255, 42);
+    position: relative;
+    top: 46px;
+  }
+  #r2{
+    color: rgb(23, 221, 89);
+  }
+  #r3{
+    color: rgb(65, 197, 38);
+    position: relative;
+    top: -20px;
+  }
+
+
+  
+  
+  .podium-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+    margin-top: 50px;
+    position: relative;
+  }
+  
+ 
+  .podium {
+    text-align: center;
+    width: 120px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .gold { background: gold; height: 200px; }
+  .silver { background: silver; height: 180px; }
+  .bronze { background: #cd7f32; height: 160px; }
+  
+ 
+  .trophy-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .gold-trophy { color: #FFD700; }
+  .silver-trophy { color: #C0C0C0; }
+  .bronze-trophy { color: #CD7F32; }
+  
+  /* Position Text */
+  .position {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .prize-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+
+
+
+  @media (max-width: 968px) {
+    .rules-list{
+      width: 590px;
+      margin-left: 120px;
+      height: 50vh;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .rules-list{
+      width: 500px;
+      margin-left: 100px;
+      height: 350px
+
+    }
+  }
+
+  @media (max-width: 668px) {
+    .rules-list{
+      width: 450px;
+      margin-left: 50px;
+      height: 50vh;
+      height: 400px;
+
+    }
+    .podium-container{
+      width: 400px;
+      margin-left: 50px;
+    }
+    #r1{
+      top: -30px;
+    }
+     #r2{
+      margin-left: 10px;
+      position: relative;
+      top: -50px;
+    }
+    #r3{
+      top: -70px;
+    }
+  }
+  @media (max-width: 508px) {
+    .rules-list{
+      width: 400px;
+      margin-left:0px;
+      height: 50vh;
+      height: 400px;
+    }
+  }
