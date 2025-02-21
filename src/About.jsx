@@ -54,7 +54,7 @@ const About = () => {
           <li>🔹 **Innovation** - The solution should bring innovative approaches or ideas to the problem.</li>
           <li>🔹 **Relevance** - The problem should be relevant to current challenges in technology or society.</li>
           <li>🔹 **Impact** - Consider the potential impact of the solution in addressing the problem.</li>
-      </ul></> : <><button id="show" onClick={()=>{setShow(true)}}>Show Problem Statements</button></>}
+      </ul></> : <><button className="register-btn" onClick={()=>{setShow(true)}}>Show Problem Statements</button></>}
 
     </div>
   );
