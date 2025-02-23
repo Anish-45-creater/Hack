@@ -15,13 +15,7 @@ const About = () => {
       </p>
 
       <h2 className="rules-title">📜 Hackathon Rules</h2>
-      <ul className="rules-list">
-        <li>🔹 **Originality** - All projects must be original and not plagiarized.</li>
-        <li>🔹 **Team Size** - Teams should consist of 2-4 participants.</li>
-        <li>🔹 **Time Limit** - You must submit your project within the given timeframe.</li> 
-        <li>🔹 **Code of Conduct** - Maintain professionalism and respect others.</li>
-        <li>🔹 **Project Demo** - A short presentation is required for final submission.</li>
-      </ul>
+      
 
       <h2 className="prizes-title">🏆 Prizes & Awards</h2>
 
