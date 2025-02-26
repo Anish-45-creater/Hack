@@ -178,3 +178,11 @@
       height: 400px;
     }
   }
+ @media (max-width: 475px) {
+    .rules-list{
+      width: 350px;
+      margin-left:5px;
+      height: 50vh;
+      height: 450px;
+    }
+  }
