@@ -174,7 +174,13 @@
     .rules-list{
       width: 400px;
       margin-left:0px;
-      height: 50vh;
       height: 400px;
+    }
+  }
+ @media (max-width: 478px) {
+    .rules-list{
+      width: 300px;
+      margin-left:0px;
+      height: 500px;
     }
   }
